@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+	<script defer src='build/spaneco-tabs.js'></script>
+</head>
+
+<script>
+</script>
+
+<body>
+<spaneco-tabs items="VP|KK|DK">
+	<svelte:fragment slot="content">
+		<div data-id="VP">hookers <span>555</span></div>
+		<div data-id="KK">bukvice <span>999</span></div>
+		<div data-id="DK">lollo <span>888</span></div>
+	</svelte:fragment>
+</spaneco-tabs>
+</body>
+</html>
